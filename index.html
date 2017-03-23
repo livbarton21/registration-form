@@ -11,7 +11,8 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-  <form class="max-length gutter pad-top-double">
+
+  <form class="max-length gutter pad-top-double" action="https://formspree.io/bart0212@algonquinlive.com" method="post">
     <h1>Want to go to Mars?</h1>
     <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
     <fieldset>
@@ -37,12 +38,12 @@
             <option>Not terribly strong</option>
             <option>A little couch-potato-y</option>
           </select>
-          </div>
-          <div class="unit xs-1 s-1 m-1 l-1 xl-1 push">
-            <label for="address">Address</label>
-            <textarea id="address" name="address"></textarea>
-          </div>
         </div>
+        <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+          <label for="address">Address</label>
+          <textarea id="address" name="address"></textarea>
+        </div>
+      </div>
     </fieldset>
     <fieldset>
       <legend class="italic push giga">Mission statement</legend>
@@ -52,7 +53,7 @@
       </div>
       <div class="text-center push">
         <button class="btn" type="submit">Register for the trip!</button>
-    </div>
+      </div>
     </fieldset>
     <input type="Hidden" value="Request to join the mission">
   </form>
